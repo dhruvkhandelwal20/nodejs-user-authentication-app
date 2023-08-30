@@ -1,0 +1,35 @@
+{
+  "name": "nodejs-first-app",
+  "version": "1.0.0",
+  "description": "This is Login-Logout Authentication App with Registration Feature designed for learning Backend Development using Node.js. The App is designed using Basic HTML & CSS with Backend of the App created using Node.js & Express.js Framework using several built-in and third-party packages. The Database used is NoSQL Database -  MongoDB. Authentication Mechanism is carried out using JsonWebToken, CookieParser and Bcrypt along with some other useful packages such as ejs, mongoose, etc.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "node.js",
+    "express.js",
+    "api",
+    "backend-programming",
+    "api-development",
+    "api-management",
+    "mongodb",
+    "nosql-database",
+    "authentication",
+    "html",
+    "css"
+  ],
+  "author": "Dhruv Khandelwal",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.6",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.0"
+  }
+}
